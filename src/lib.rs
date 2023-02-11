@@ -61,7 +61,7 @@ impl Plugin for NihSampler {
 
     const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
-    const DEFAULT_INPUT_CHANNELS: u32 = 0;
+    const DEFAULT_INPUT_CHANNELS: u32 = 2;
     const DEFAULT_OUTPUT_CHANNELS: u32 = 2;
     
     const MIDI_INPUT: MidiConfig = MidiConfig::Basic;
